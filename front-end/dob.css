@@ -1,0 +1,94 @@
+
+      /* Container */
+      .container {
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      /* Heading */
+      .heading {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .heading h2 {
+        color: #2c3e50;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0;
+        padding: 20px 0;
+      }
+
+      /* Input */
+      .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .input h3 {
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 10px;
+        padding: 0;
+      }
+
+      .input label {
+        color: #2c3e50;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .input input[type="text"] {
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 10px;
+        width: 300px;
+      }
+
+      .input button[type="button"] {
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 10px;
+      }
+
+      .input button[type="button"]:hover {
+        background-color: #2980b9;
+      }
+
+      /* Output */
+      .output {
+        text-align: center;
+      }
+
+      .output h3 {
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0 10px;
+        padding: 0;
+      }
+
+      .output p {
+        color: #2c3e50;
+        font-size: 24px;
+        margin: 10px 0;
+        padding: 0;
+      }
+    
+
+    
